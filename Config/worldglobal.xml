@@ -1,0 +1,17 @@
+<config>
+
+  <!-- indoor changes -->
+  <set xpath="/worldglobal/environment/property[@name='ambientInsideThreshold']/@value">0.1</set>
+  <set xpath="/worldglobal/environment/property[@name='ambientInsideSpeed']/@value">.4</set>
+  <set xpath="/worldglobal/environment/property[@name='ambientInsideEquatorScale']/@value">0.3,0</set>
+  <set xpath="/worldglobal/environment/property[@name='ambientInsideGroundScale']/@value">0.1,0</set>
+  <set xpath="/worldglobal/environment/property[@name='ambientInsideSkyScale']/@value">0.2,0</set>
+
+
+  <!-- outdoor changes -->
+  <set xpath="/worldglobal/environment/property[@name='ambientEquatorScale']/@value">.3, .15</set>
+  <set xpath="/worldglobal/environment/property[@name='ambientGroundScale']/@value">.1, .005</set>
+  <set xpath="/worldglobal/environment/property[@name='ambientSkyScale']/@value">.7, .4</set>
+  <set xpath="/worldglobal/environment/property[@name='ambientSkyDesat']/@value">.45, .3</set>
+
+</config>
